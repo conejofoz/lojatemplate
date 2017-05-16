@@ -9,13 +9,16 @@
 /**
  * Description of homeController
  *
- * @author conejo
+ * @author geral
  */
 class homeController extends controller {
-    public function index(){
+
+    public function index() {
         $usuario = new usuario();
         $usuario->setName('Silvio');
+        
         $dados = array('name' => $usuario->getName());
-        $this->loadTemplate('home', $dados);
+        $this->loadView('home', $dados);
     }
+
 }
