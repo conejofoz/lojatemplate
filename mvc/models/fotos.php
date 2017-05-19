@@ -11,7 +11,12 @@
  *
  * @author conejo
  */
-class fotos extends model {
+class fotos extends Model{
+    
+    public function __construct() {
+        parent::__construct();
+    }
+    
     public function getFotos(){
         $array = array();
         $sql = "SELECT * FROM fotos";

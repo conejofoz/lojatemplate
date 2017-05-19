@@ -12,6 +12,10 @@
  * @author geral
  */
 class homeController extends controller {
+    
+    public function __construct() {
+       
+    }
 
     public function index() {
         $fotos = new fotos();
