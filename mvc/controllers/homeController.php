@@ -14,10 +14,8 @@
 class homeController extends controller {
 
     public function index() {
-        $usuario = new usuario();
-        $usuario->setName('Silvio');
-        
-        $dados = array('name' => $usuario->getName());
+        $fotos = new fotos();
+        $dados['fotos'] = $fotos->getFotos();
         $this->loadTemplate('home', $dados);
     }
     
