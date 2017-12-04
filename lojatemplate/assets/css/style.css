@@ -145,6 +145,19 @@ h3{
 }
 
 .banner{
+   
+    width: 100%;
+   /* position: relative;*/
+    /*top: -45px;*/
+    
+     margin: 0; 
+    padding: 0; 
+    font-size: 100%; 
+    border: none; 
+    outline: none; 
+    font-weight: 300; 
+    box-sizing: border-box; 
+    font-family: 'Lato', sans-serif;  
 
 
 }

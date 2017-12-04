@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
+     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
-    <title>Ample Admin Template - The Ultimate Multipurpose admin template</title>
+    <title>Infinity</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo BASE_URL; ?>/ampleadmin-horizontal-nav/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Menu CSS -->
@@ -25,6 +26,11 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    
+      
+    
+    
+    
 </head>
 
 <body class="fix-header">

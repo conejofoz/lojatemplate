@@ -26,6 +26,9 @@ class controller {
             $menu = $sql->fetchAll();
         } 
         
+        include("views/enableCORS.php");
+	enableCORS();
+       
         include 'views/header.php';
         include 'views/template.php';
         
