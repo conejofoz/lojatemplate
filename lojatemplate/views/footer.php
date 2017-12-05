@@ -12,16 +12,18 @@
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-google"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-envelope"></i></a>
+                
             </div>
             <p class="copyright">
-                email: infinitygroup.net@gmail.com
-                Tel: 595-061-512216/500628
+                <i class="fa fa-envelope"></i> infinitygroup.net@gmail.com<br/>
+                <i class="fa fa-phone"></i> 595-061-512216/500628
             </p>
             <p class="copyright">
                 Av. San Blás, 136 - Ciudad del Este - Paraguay
             </p>
         </div>
+        
+        
         
       
       

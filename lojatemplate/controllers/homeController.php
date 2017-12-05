@@ -9,7 +9,7 @@ class homeController extends controller {
         $dados = array();
         
         $produtos = new produtos();
-        $dados['produtos'] = $produtos->listar(8);
+        $dados['produtos'] = $produtos->listar(12);
         
         $this->loadTemplate('home', $dados);
     }

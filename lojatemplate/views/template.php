@@ -9,7 +9,8 @@
     </head>
     <body>
         
-        <div class="container">
+        <!--<div class="container"> nao deixava o banner expandir todo-->
+        <div>
             <?php $this->loadViewInTemplate($viewName, $viewData); ?>
         </div>
         <?php include 'views/footer.php';?>
