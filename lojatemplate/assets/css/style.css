@@ -637,6 +637,11 @@ h3{
    
    
     */
+    .logo-xs img{
+        width: 33px;
+        height: 31px;
+        display: none;
+    }
 }
 
 
@@ -691,6 +696,13 @@ h3{
         /*background: linear-gradient(to right, #ce2e3c, #da6709);*/
         /*background: linear-gradient(to right, #556B2F, #ADFF2F);*/
         background: linear-gradient(to right, #77B4D8, #00ccff);
+    }
+    
+    
+     .logo-xs img{
+        width: 33px;
+        height: 31px;
+        background-color: red;
     }
 
 

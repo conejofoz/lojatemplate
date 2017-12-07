@@ -1,12 +1,23 @@
-<div class="containerHome">
-<div class="produto_foto">
-    <img src="<?php echo BASE_URL;?>/assets/images/prods/<?php echo $produto['imagem'];?>" border="0" width="500" height="500" />
-</div>
-<div class="produto_info">
-    <h2><?php echo utf8_encode($produto['nome']);?></h2>
-    <?php echo utf8_encode($produto['descricao']);?>
-    <h3>$ <?php echo number_format($produto['preco'], 2, ',','.');?></h3>
-    <a href="<?php echo BASE_URL;?>/carrinho/add/<?php echo $produto['id'];?>" class="botaoAddCarrinho">Adicionar ao carrinho</a>
-</div>
-<div style="clear: both"></div>
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="white-box" style="height: 320px">
+                <img src="<?php echo BASE_URL; ?>/assets/images/prods/<?php echo $produto['imagem']; ?>" border="0" width="300" height="300" />
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="white-box" style="height: 320px">
+
+                <h4 class="box-title m-b-0"><?php echo utf8_encode($produto['nome']); ?></h4>
+                <?php echo utf8_encode($produto['descricao']); ?>
+                <div class="product-text">
+                    <br/>
+                    <span class="pro-price bg-danger">$ <?php echo number_format($produto['preco'], 2, ',', '.'); ?></span>
+                    <a href="<?php echo BASE_URL; ?>/carrinho/add/<?php echo $produto['id']; ?>" class="btn btn-inverse btn-rounded m-r-5" data-toggle="tooltip" title="Adicionar ao carrinho"><i class="ti-shopping-cart"></i> Comprar </a>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
 </div>

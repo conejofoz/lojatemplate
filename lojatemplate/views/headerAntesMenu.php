@@ -127,29 +127,73 @@
                             <li><a href="javascript:void(0)"><i class="fa fa-power-off"></i> <span class="hide-menu">Logout</span></a></li>
                         </ul>
                     </li>
-                    <li> 
-                        <a href="<?php echo BASE_URL; ?>" class="waves-effect"><i class="mdi mdi-av-timer fa-fw" data-icon="v"></i> <span class="hide-menu"> Home <span class="fa arrow"></span> <span class="label label-rouded label-inverse pull-right">4</span></span></a>
+                    <li> <a href="javascript:void(0)" class="waves-effect"><i class="mdi mdi-av-timer fa-fw" data-icon="v"></i> <span class="hide-menu"> Home <span class="fa arrow"></span> <span class="label label-rouded label-inverse pull-right">4</span></span></a>
+                        
                     </li>
                     
-                    <li> 
-                        <a href="<?php echo BASE_URL; ?>/empresa" class="waves-effect"><i class="mdi mdi-av-timer fa-fw" data-icon="v"></i> <span class="hide-menu"> Empresa <span class="fa arrow"></span> <span class="label label-rouded label-inverse pull-right">4</span></span></a>
+                    
+                    <li> <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-cart-outline fa-fw" data-icon="v"></i> <span class="hide-menu"> Empresa <span class="fa arrow"></span> </span></a>
+                        <ul class="nav nav-second-level">
+                            <li> <a href="products.html"><i class="fa-fw">P</i><span class="hide-menu">Products</span></a> </li>
+                        </ul>
                     </li>
-                 
-
-
-                    <?php foreach ($menu as $menuitem): ?>
-                        <li> <a href="<?php echo BASE_URL; ?>/categoria/ver/<?php echo $menuitem['id']; ?>" class="waves-effect"><i  class="mdi mdi-settings"></i> <span class="hide-menu"><?php echo utf8_encode($menuitem['titulo']); ?></span></a> </li>
-                    <?php endforeach; ?>
-
+                    
+                    
+                    
+                    <li> <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-cart-outline fa-fw" data-icon="v"></i> <span class="hide-menu"> Casa <span class="fa arrow"></span> </span></a>
+                        <ul class="nav nav-second-level">
+                            <li> <a href="products.html"><i class="fa-fw">P</i><span class="hide-menu">Products</span></a> </li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li> <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-cart-outline fa-fw" data-icon="v"></i> <span class="hide-menu"> Decoração <span class="fa arrow"></span> </span></a>
+                        <ul class="nav nav-second-level">
+                            <li> <a href="products.html"><i class="fa-fw">P</i><span class="hide-menu">Products</span></a> </li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    <li> <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-cart-outline fa-fw" data-icon="v"></i> <span class="hide-menu"> Relógios <span class="fa arrow"></span> </span></a>
+                        <ul class="nav nav-second-level">
+                            <li> <a href="products.html"><i class="fa-fw">P</i><span class="hide-menu">Products</span></a> </li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    <li> <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-cart-outline fa-fw" data-icon="v"></i> <span class="hide-menu"> Perfumaria <span class="fa arrow"></span> </span></a>
+                        <ul class="nav nav-second-level">
+                            <li> <a href="products.html"><i class="fa-fw">P</i><span class="hide-menu">Products</span></a> </li>
+                        </ul>
+                    </li>
                     
                     
                     
                     
-                    <li> <a href="<?php echo BASE_URL; ?>" class="waves-effect"><i  class="mdi mdi-settings"></i> <span class="hide-menu">Pedidos</span></a> </li>
-                   
-                    <li> <a href="<?php echo BASE_URL; ?>/contato" class="waves-effect"><i  class="mdi mdi-settings fa-fw"></i> <span class="hide-menu">Contato</span></a> </li>
-                   
-                    <li> <a href="<?php echo BASE_URL; ?>/carrinho" class="waves-effect"><i class="mdi mdi-cart-outline fa-fw" data-icon="v"></i> <span class="hide-menu">Carrinho</span></a> </li>
+                    <li> <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-cart-outline fa-fw" data-icon="v"></i> <span class="hide-menu"> Contato <span class="fa arrow"></span> </span></a>
+                        <ul class="nav nav-second-level">
+                            <li> <a href="products.html"><i class="fa-fw">P</i><span class="hide-menu">Products</span></a> </li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li> <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-cart-outline fa-fw" data-icon="v"></i> <span class="hide-menu"> Pedidos <span class="fa arrow"></span> </span></a>
+                        <ul class="nav nav-second-level">
+                            <li> <a href="products.html"><i class="fa-fw">P</i><span class="hide-menu">Products</span></a> </li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li class="devider"></li>
+                    
+                    
+                    
+                    <li class="devider"></li>
+                    <li> <a href="widgets.html" class="waves-effect"><i  class="mdi mdi-settings fa-fw"></i> <span class="hide-menu">Widgets</span></a> </li>
                 </ul>
             </div>
         </div>
