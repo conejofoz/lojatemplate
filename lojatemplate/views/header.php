@@ -128,27 +128,27 @@
                         </ul>
                     </li>
                     <li> 
-                        <a href="<?php echo BASE_URL; ?>" class="waves-effect"><i class="mdi mdi-av-timer fa-fw" data-icon="v"></i> <span class="hide-menu"> Home <span class="fa arrow"></span> <span class="label label-rouded label-inverse pull-right">4</span></span></a>
+                        <a href="<?php echo BASE_URL; ?>/home"   class="waves-effect"><i class="mdi mdi-home fa-fw" data-icon="v"></i> <span class="hide-menu"> Home <span class="fa arrow">   </span> <span class="label label-rouded label-inverse pull-right">4</span></span></a>
                     </li>
                     
                     <li> 
-                        <a href="<?php echo BASE_URL; ?>/empresa" class="waves-effect"><i class="mdi mdi-av-timer fa-fw" data-icon="v"></i> <span class="hide-menu"> Empresa <span class="fa arrow"></span> <span class="label label-rouded label-inverse pull-right">4</span></span></a>
+                        <a href="<?php echo BASE_URL; ?>/empresa" class="waves-effect"><i class="mdi mdi-city fa-fw" data-icon="v"></i> <span class="hide-menu"> Empresa <span class="fa arrow"></span> <span class="label label-rouded label-inverse pull-right">4</span></span></a>
                     </li>
                  
 
 
                     <?php foreach ($menu as $menuitem): ?>
-                        <li> <a href="<?php echo BASE_URL; ?>/categoria/ver/<?php echo $menuitem['id']; ?>" class="waves-effect"><i  class="mdi mdi-settings"></i> <span class="hide-menu"><?php echo utf8_encode($menuitem['titulo']); ?></span></a> </li>
+                        <li> <a href="<?php echo BASE_URL; ?>/categoria/ver/<?php echo $menuitem['id']; ?>" class="waves-effect"><i  class="mdi mdi-arrow-right-drop-circle-outline"></i> <span class="hide-menu"><?php echo utf8_encode($menuitem['titulo']); ?></span></a> </li>
                     <?php endforeach; ?>
 
                     
                     
                     
                     
-                    <li> <a href="<?php echo BASE_URL; ?>" class="waves-effect"><i  class="mdi mdi-settings"></i> <span class="hide-menu">Pedidos</span></a> </li>
+                    <li> <a href="<?php echo BASE_URL; ?>/pedidos" class="waves-effect"><i  class="mdi mdi-file-document-box fa-fw"></i> <span class="hide-menu">Pedidos</span></a> </li>
                    
-                    <li> <a href="<?php echo BASE_URL; ?>/contato" class="waves-effect"><i  class="mdi mdi-settings fa-fw"></i> <span class="hide-menu">Contato</span></a> </li>
-                   
+                    <li> <a href="<?php echo BASE_URL; ?>/contato" class="waves-effect"><i  class="mdi mdi-email-outline fa-fw"></i> <span class="hide-menu">Contato</span></a> </li>
+                    <li class="devider"></li>
                     <li> <a href="<?php echo BASE_URL; ?>/carrinho" class="waves-effect"><i class="mdi mdi-cart-outline fa-fw" data-icon="v"></i> <span class="hide-menu">Carrinho</span></a> </li>
                 </ul>
             </div>
